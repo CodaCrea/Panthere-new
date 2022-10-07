@@ -1,4 +1,5 @@
 body {
+  font-family: "FontAwesome" sans-serif;
   margin: 0;
   padding: 0;
   background: #fff;
@@ -51,10 +52,20 @@ a:hover {
 
 .article-bloc-lg {
   background-color: rgb(243, 151, 108, 0.9);
-  width: 50%;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 30%;
+  margin-left: 30%;
+  padding: 10px;
+}
+
+.article-bloc-lg h2 {
+  margin-bottom: 0;
+}
+
+.article-bloc-lg p {
+  margin-top: 0;
 }
 
 .col-sm-12-title {
@@ -310,7 +321,7 @@ a:hover {
 }
 
 .signature-commentary {
-  font-size: 17px;
+  font-size: 15px;
   text-align: end;
   opacity: 0.8;
 }
@@ -833,7 +844,7 @@ h4 {
 }
 
 .tc-white {
-  color: #ffa77f;
+  color: #f3976c;
 }
 
 .tc-color-black {
@@ -935,6 +946,9 @@ h4 {
   .bloc-tile-4.full-width-bloc .container {
     padding-left: 0;
     padding-right: 0;
+  }
+  .footer-contact {
+    margin-top: 166px;
   }
 }
 
@@ -1139,6 +1153,23 @@ h4 {
   .blocsapp-device-iphone5 img {
     width: 180px;
     height: 320px;
+  }
+  .media-margin {
+    margin: 0 20px;
+  }
+  .black-background {
+    padding: 20px;
+  }
+  .black-background h2,
+  .black-background p {
+    text-align: justify;
+  }
+  .col-sm-12-title {
+    width: 90%;
+  }
+  .article-bloc-lg {
+    margin-right: 10%;
+    margin-left: 10%;
   }
 }
 
