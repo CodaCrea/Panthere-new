@@ -32,18 +32,21 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
+					</nav>
 				</div>
-				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-					<ul class="site-navigation nav navbar-nav">
-						<li class="opacity-hover">
-							<a href="../index.html" aria-label="page index">Accueil</a>
-						</li>
-						<li class="opacity-hover">
-							<a href="#" aria-label="page contact">Contact</a>
-						</li>
-					</ul>
-				</div>
+				<nav class="navbar row">
+					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+						<ul class="site-navigation nav navbar-nav">
+							<li class="opacity-hover">
+								<a href="../index.html" aria-label="page index">Accueil</a>
+							</li>
+							<li class="opacity-hover">
+								<a href="#" aria-label="page contact">Contact</a>
+							</li>
+						</ul>
+					</div>
 				</nav>
+			</div>
 		</header>
 
 		<section class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
@@ -70,8 +73,12 @@
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-6">
-						<form id="form_1" method="post" action="" novalidate success-msg="Votre message a été envoyé."
-							fail-msg="Désolé, il semble que notre serveur de messagerie ne réponde pas, désolé pour l'inconvénient!">
+						<div class="bloc-lg-title">
+							<h2>Formulaire</h2>
+						</div>
+						<form id="form_1" method="post" action="../includes/form_1.php" novalidate
+							data-success-msg="Votre message a été envoyé."
+							data-fail-msg="Désolé, il semble que notre serveur de messagerie ne réponde pas, désolé pour l'inconvénient!">
 							<div class="form-group">
 								<label for="name">
 									Nom
@@ -103,12 +110,12 @@
 						</form>
 					</div>
 					<aside class="contact-aside">
-						<adress class="col-sm-6">
+						<address class="col-sm-6">
 							<a class="text-size tight-width-whitespace contact-mail" href="mailto:contact@agencelapanthere.com"
 								aria-label="adresse mail de l'agence">contact@agencelapanthere.com</a>
 							<p class="text-size tight-width-whitespace">2 place Sathonay 69001 Lyon</p>
 							<p class="text-size">Ouvert de 9h à 18h, du lundi au vendredi</p>
-						</adress>
+						</address>
 					</aside>
 				</div>
 				<a href="#" class="bloc-button btn btn-d scrollToTop" aria-label="Flèche de direction vers le haut de la page"
